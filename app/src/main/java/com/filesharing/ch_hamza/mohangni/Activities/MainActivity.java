@@ -1,7 +1,9 @@
-package com.filesharing.ch_hamza.mohangni;
+package com.filesharing.ch_hamza.mohangni.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.filesharing.ch_hamza.mohangni.R;
 
 public class MainActivity extends AppCompatActivity {
 
