@@ -4,19 +4,28 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tumkna"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/tumkna"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.MainActivity">
+        <activity android:name=".Activities.Home_Categories">
+
+        </activity>
+        <activity android:name=".Activities.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.Splash"></activity>
+        <activity android:name=".Activities.sub_categories" />
+        <activity android:name=".Activities.Check_Out" />
+        <activity android:name=".Activities.All_Products" />
+        <activity android:name=".Activities.My_Cart" />
+        <activity android:name=".Activities.Size_Chart" />
+        <activity android:name=".Activities.Product_Details" />
+        <activity android:name=".Activities.FullScreenImage" />
     </application>
 
 </manifest>

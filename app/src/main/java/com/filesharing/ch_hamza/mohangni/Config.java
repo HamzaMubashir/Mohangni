@@ -6,13 +6,14 @@ package com.filesharing.ch_hamza.mohangni;
 
 public class Config {
 
-    public static final String ip="192.168.100.10";
-    public static final String BANNER1 = "http://jacquard.pk/media/wysiwyg/mobile/Banner_1.jpg";
-    public static final String BANNER2 = "http://jacquard.pk/media/wysiwyg/mobile/Banner_2.jpg";
+    public static final String ip="192.168.100.18";
+    public static final String BANNER1 = "http://mohagni.com/media/wysiwyg/mobile/banner1.jpg";
+    public static final String BANNER2 = "http://mohagni.com/media/wysiwyg/mobile/banner2.jpg";
+    public static final String BANNER3 = "http://mohagni.com/media/wysiwyg/mobile/banner3.jpg";
    // public static final String BANNER3 = "http://www.forecast.com.pk/media/wysiwyg/porto/mobile/banner2.jpg";
 //    public static final String URL_sub_categories= "http://forecast.com.pk/getSubCategories.php";
-    public static final String HOME_FOOTWARE = "http://jacquard.pk/media/wysiwyg/mobile/emroidered.png";
-    public static final String HOMW_SALE = "http://jacquard.pk/media/wysiwyg/mobile/printed.png";
+    public static final String HOME_FOOTWARE = "http://mohagni.com/media/wysiwyg/mobile/areena.jpg";
+    public static final String HOMW_SALE = "http://mohagni.com/media/wysiwyg/mobile/florence.png";
 
 ///////////////////SHARED PREFRENCE CART////////////////////////
 //    public static final String LOGIN_SUCCESS = "success";
@@ -51,7 +52,7 @@ public static final String SHARED_PREF_CART = "cart";
 //    public static final String URL_REMOVE_ITEM_CART="http://forecast.com.pk/remove_item_from_cart.php";
 //    public static final String URL_REMOVE_HD_IMAGE="http://forecast.com.pk/all_images.php";
 //    ///////////////////////////////LOCal//////////////////////
-    public static final String URL_CREATE_ORDER="http://jacquard.pk/create_order.php";
+    public static final String URL_CREATE_ORDER="http://"+ip+"/backup/create_order.php";
     public static final String FIRSTNAME= "firstname";
     public static final String LASTNAME = "lastname";
     public static final String CART_ID = "cart_id";
@@ -65,16 +66,16 @@ public static final String SHARED_PREF_CART = "cart";
     public static final String PHONE = "telephone";
 
     ////////GETTING PRODUCT //////
-    public static final String URL_All_Categories= "http://jacquard.pk/getCategories.php";
-    public static final String URL_Sub_Categories= "http://jacquard.pk/getSubCategories.php";
-    public static final String URL_ALL_PRODUCTS= "http://jacquard.pk/getAllProductsByCategories.php";
-    public static final String URL_PRODUCT_DETAILS= "http://jacquard.pk/get_product_details.php";
-    public static final String URL_PRODUCT_DETAILS_CONFIGURE= "http://jacquard.pk/congig_details_prooo_demo.php";
-    public static final String URL_BASE_WEBVIEW= "http://jacquard.pk/index.php";
-    public static final String URL_INVENTORY= "http://jacquard.pk/inventory.php";
+    public static final String URL_All_Categories= "http://"+ip+"/backup/getCategories.php";
+    public static final String URL_Sub_Categories= "http://"+ip+"/backup/getSubCategories.php";
+    public static final String URL_ALL_PRODUCTS= "http://"+ip+"/backup/getAllProductsByCategories.php";
+    public static final String URL_PRODUCT_DETAILS= "http://"+ip+"/backup/get_product_details.php";
+    public static final String URL_PRODUCT_DETAILS_CONFIGURE= "http://"+ip+"/backup/congig_details_prooo_demo.php";
+    public static final String URL_BASE_WEBVIEW= "http://"+ip+"/backup/index.php";
+    public static final String URL_INVENTORY= "http://"+ip+"/backup/inventory.php";
     //////////SHOPPING CART APIS////////////////
-    public static final String URL_ADD_TO_CART="http://jacquard.pk/add_to_cart.php";
-    public static final String URL_SHOW_CART="http://jacquard.pk/getting_quote_items.php";
-    public static final String URL_REMOVE_ITEM_CART="http://jacquard.pk/remove_item_from_cart.php";
-    public static final String URL_REMOVE_HD_IMAGE="http://jacquard.pk/all_images.php";
+    public static final String URL_ADD_TO_CART="http://"+ip+"/backup/add_to_cart.php";
+    public static final String URL_SHOW_CART="http://"+ip+"/backup/getting_quote_items.php";
+    public static final String URL_REMOVE_ITEM_CART="http://"+ip+"/backup/remove_item_from_cart.php";
+    public static final String URL_REMOVE_HD_IMAGE="http://"+ip+"/backup/all_images.php";
 }

@@ -7,5 +7,20 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:textColor">@color/white</item>
 
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/jaqard</item>
+    </style>
+    <!--<style name="spinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="android:background">@color/Mohagni_back</item>-->
+    <!--</style>-->
 </resources>
